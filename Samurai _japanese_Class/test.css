@@ -1,0 +1,6 @@
+*{color: purple;} /*全称セレクタ*/
+p{color:red;} /*タイプセレクタ*/
+.abc{color: orange;} /*要素を特定したセレクタ*/
+p.abc{color: yellow;} /*セレクタ*/
+#xyz{color:green;} /*全称セレクタ*/
+p#xyz{color:blue;} /*全称セレクタ*/
