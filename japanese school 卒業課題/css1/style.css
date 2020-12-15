@@ -136,6 +136,7 @@ aside > strong {
 }
 
 
+
 .title{
 	margin-top: -30px;
     margin-bottom: 60px;
@@ -267,28 +268,57 @@ strong {
 }
 
 @media screen and (max-width: 480px){
-	main{
-		width: 600px;
+
+	.welcome {
+		background-image:  url(../img/shuricastle.png);
+		height: 700px;
+		color: #fff;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-repeat: no-repeat;
+		background-size: 375px;
+		width: 370px;
+		height: 900px;
 	}
+
+	main{
+		width: 370px;
+	}
+
+	.curriculum{
+		width: 105px;
+	}
+	
 
 	.welcome{
 		height: 500px;
-		width: 600px;
+		width: 375px;
 	}
 
 	.title{
-		font-size: 30px;
-		margin-top: 280px;
+		font-size: 19px;
+		margin-top: 380px;
+		width: 375px;
 	}
 
 	.subtitle{
 		font-size: 25px;
 		margin-left: -430px;
+		width: 370px;
 	}
 
 	.guideline{
 		margin-bottom: 0px;
 		font-size: 15px;
+		width: 375px;
+	}
+
+	.guideline li{
+		margin-left: 1px;
+		width: 374px;
+		margin-bottom: 20px;
 	}
 
 	.signup{
@@ -299,11 +329,13 @@ strong {
 	}
 
 	.photo{
+		width: 270px;
 		flex-flow: column;
 	}
 
 	.photo li{
 		margin: 0px 0px 0px -120px;
+		width: 300px;
 	}
 
 	.photo img{
@@ -326,20 +358,21 @@ strong {
 
 	.btn{
 		margin-top: 50px;
-		margin-left: 215px;
-	}
-
-	.login{
-		margin-right: 300px;
-	}
-
-	.btn-group {
-		margin-left: -140px;
-		margin-bottom: 290px;
+		margin-left: -5px;
 	}
 
 	.register{
-		margin-right: 85px;
+		margin: 0px 0px 0px 0px;
+	}
+
+	.btn-group {
+		margin-left: 45px;
+		margin-bottom: 290px;
+		width: 300px;
+	}
+
+	.register{
+		margin-right: 8px;
 	}
 
 	.input-field{
