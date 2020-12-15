@@ -303,9 +303,9 @@ strong {
 		width: 375px;
 	}
 
-	.subtitle{
+	.subtitle {
 		font-size: 25px;
-		margin-left: -430px;
+		margin-left: -195px;
 		width: 370px;
 	}
 
@@ -335,8 +335,8 @@ strong {
 		flex-flow: column;
 	}
 
-	.photo li{
-		margin: 0px 0px 0px -120px;
+	.photo li {
+		margin: 0px 0px 0px -46px;
 		width: 300px;
 	}
 
@@ -387,6 +387,15 @@ strong {
 	.sns-rest{
 		margin-left: 30px;
 	}
+
+	.sns-rest li {
+		margin-top: 10px;
+		font-size: 15px;
+		margin-right: 30px;
+		margin-left: 35px;
+		color: rgb(37, 21, 21);
+	}
+
 	.copyright{
 		margin-left: 30px;
 		height: 30px;
