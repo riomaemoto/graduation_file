@@ -310,15 +310,17 @@ strong {
 	}
 
 	.guideline{
-		margin-bottom: 0px;
+		margin-bottom: -100px;
 		font-size: 15px;
 		width: 375px;
+		
 	}
 
 	.guideline li{
 		margin-left: 1px;
 		width: 374px;
 		margin-bottom: 20px;
+		background-color: rgba(221, 75, 22, 0.753);
 	}
 
 	.signup{
@@ -366,8 +368,9 @@ strong {
 	}
 
 	.btn-group {
+		margin-top: 130px;
 		margin-left: 45px;
-		margin-bottom: 290px;
+		margin-bottom: 390px;
 		width: 300px;
 	}
 
