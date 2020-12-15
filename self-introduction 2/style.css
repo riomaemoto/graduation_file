@@ -1,12 +1,27 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg-img {
+  width: fit-content;
+  background-image: url("self-introduction 2/img/lion_lookingup.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .navbar {
   width: 100%;
   height: 50px;
   background-color: rgba(47, 47, 65, 0.756);
   overflow: auto;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+  position: fixed;
+  top: 0;
 }
 
 .navbar a {
@@ -25,13 +40,20 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background-color: #00ff37b1;
 }
 
-.main {
-  margin-top: 100px; /* Add a top margin to avoid content overlay */
+.bg-img {
+  margin-top: -1080px;
 }
 
 @media screen and (max-width: 500px) {
+  .navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(47, 47, 65, 0.756);
+    overflow: auto;
+    position: fixed;
+    top: 0;
+  }
   .navbar a {
-    float: none;
-    display: block;
+    font-size: 10px;
   }
 }
