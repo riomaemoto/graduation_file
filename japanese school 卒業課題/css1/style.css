@@ -89,8 +89,8 @@ main li {
 }
 
 .title {
-    margin-top: 110px;
-    margin-bottom: -10px;
+    margin-top: -50px;
+    margin-bottom: 400px;
     font-size: 80px;
     height: 87px;
     padding-bottom: 10px;
@@ -101,7 +101,7 @@ main li {
 	font-size: 20px;
 }
 .guideline {
-    margin-top: 120px;
+    /* margin-top: 120px; */
     font-size: 28px;
     font-weight: bold;
 }
@@ -318,7 +318,14 @@ strong {
 		font-size: 19px;
 		margin-top: px;
 		width: 375px;
+		/* margin-bottom: 100px; */
+		/* margin-top: -400px; */
+		margin-bottom: 40px;
+		margin-top: 10px;
+		height: 25px;
 	}
+
+	
 	.subtitle {
 		font-size: 25px;
 		margin-left: -195px;
