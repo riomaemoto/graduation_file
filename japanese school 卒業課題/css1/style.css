@@ -208,32 +208,14 @@ aside > strong {
 }
 
 
-form{
-	margin-top: 20px;
-}
-
-label {
-	width: 120px;
-	padding-top: 20px;
-	margin-left: 760px;
-
-}
-
-.btn{
-	background-color: rgba(35, 236, 112, 0.5);
-}
-
-.submit{
-	display: flex;
-	justify-content: center;
-
-}
 
 
 
-.btn:hover{
-	background-color: rgb(224, 29, 42);
-}
+
+
+
+
+
 
 .footer{
 	height: 140px;
@@ -387,7 +369,6 @@ strong {
 	.sns-rest{
 		margin-left: 30px;
 	}
-
 	.sns-rest li {
 		margin-top: 10px;
 		font-size: 15px;
