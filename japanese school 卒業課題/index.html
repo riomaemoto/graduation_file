@@ -24,13 +24,11 @@
       <li>Master it and enjoy your OKINAWA life</li>
       <li>Sign up NOW for one month FREE!! expires 2020/12/31</li>
     </ul>
-    <div class="btn-group">
-      <button class="btn register">Sign up</button>
-      <button class="btn login">Login</button>
+
     </div>
   </main>
   <main class="curriculum">
-    <h2 class="subtitle">Choose what's best for you!</h2>
+    <h2 id="learn" class="subtitle">Choose what's best for you!</h2>
     <ul class="photo">
       <li>
         <img src="img/zoom.png">
@@ -47,45 +45,67 @@
     </ul>
   </main>
   <aside>
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <h2 style="text-align:center">Login with Social Media or Manually</h2>
+          <div class="vl">
+            <span class="vl-innertext"></span>
+          </div>
 
-    <strong>contact us</strong>
-    <form>
-      <ul>
-        <li>
-          <div class="form-group">
-            <input type="text" name class="input-field" placeholder="Name">
+          <div id="my-account" class="col">
+            <a href="https://www.facebook.com/login/" class="fb btn">
+              <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+            </a>
+            <a href="https://twitter.com/search?q=%23login&lang=en" class="twitter btn">
+              <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+            </a>
+            <a href="https://support.google.com/mail/answer/8494?co=GENIE.Platform%3DDesktop&hl=ja" class="google btn">
+              <i class="fa fa-google fa-fw"></i> Login with Google+
+            </a>
           </div>
-        </li>
-        <li>
-          <div class="form-group">
-            <input type="email" name class="input-field" placeholder="Email">
+
+          <div class="col">
+            <div class="hide-md-lg">
+              <p>Or sign in manually:</p>
+            </div>
+
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
           </div>
-        </li>
-      </ul>
-      <div class="form-group1">
-        <textarea name class="input-field1" rows="5" cols="60" placeholder="Description"></textarea>
-      </div>
-    </form>
-    <label>
-      <button type="submit" class="btn">submit</button>
-    </label>
-  </aside>
-  <!----------------- footerここから -------------->
-  <footer>
-    <div class="footer">
-      <!-- <img src="https://www.frontier-resort.co.jp/cafe-enjoy/images/common/enjoy_logo.png" alt=""> -->
-      <ul class="sns-rest">
-        <li><a href="https://ja-jp.facebook.com/r.php"><i class="fab fa-facebook-square fa-2x"></i>Follow ➡︎ Japanese
-            Master class</a></li>
-        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-2x"></i>Follow ➡︎ Japanese Master
-            class</a></li>
-        <!-- <li><i class="fab fa-twitter-square fa-2x"></i></li> -->
-      </ul>
-      <div class="copyright">
-        <p>©︎2020　NexSeed OKINAWA.</p>
+
+        </div>
+      </form>
+    </div>
+
+    <div class="bottom-container">
+      <div id="register" class="register row">
+        <div class="col">
+          <a href="#" style="color:white" class="btn">Sign up</a>
+        </div>
+        <div class="col">
+          <a href="#" style="color:white" class="btn">Forgot password?</a>
+        </div>
       </div>
     </div>
-  </footer>
+    <!----------------- footerここから -------------->
+    <footer>
+      <div class="footer">
+        <!-- <img src="https://www.frontier-resort.co.jp/cafe-enjoy/images/common/enjoy_logo.png" alt=""> -->
+        <ul id="sns" class="sns-rest">
+          <li><a href="https://www.facebook.com/login/"><i class="fab fa-facebook-square fa-2x"></i>Follow ➡︎ Japanese
+              Master class</a></li>
+          <li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-2x"></i>Follow ➡︎ Japanese
+              Master
+              class</a></li>
+          <!-- <li><i class="fab fa-twitter-square fa-2x"></i></li> -->
+        </ul>
+        <div class="copyright">
+          <p>©︎2020　NexSeed OKINAWA.</p>
+        </div>
+      </div>
+    </footer>
 
 </body>
 
