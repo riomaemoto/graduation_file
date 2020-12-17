@@ -1,3 +1,6 @@
+.body{
+	font-family: serif;
+}
 .top-space {
 	width: 100%;
 	height: 60px;
@@ -11,11 +14,19 @@
 	justify-content: center;
 }
 
-ul {
+.globalMenuSp ul {
 	width: 80%;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	position: relative;
+	margin-top: 20px;
+}
+.globalMenuSp a{
+	color: white;
+	text-decoration: none;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 25px;
 }
 
 main {
@@ -24,8 +35,8 @@ main {
 
 main li {
 	position: relative;
-	top: -20%;
-	left: 10%;
+	top: 100%;
+	left: 5%;
 	width: 450px;
 	margin-left: 100px;
 	border-radius: 10px;
@@ -48,6 +59,10 @@ main li {
 	text-align: center;
 	font-size: 35px;
 	padding-bottom: 30px;
+	font-family: serif;
+	font-weight: bold;
+
+
 }
 
 .photo {
@@ -80,6 +95,8 @@ main li {
 	align-items: center;
 	margin-top: -1px;
 	margin-bottom: -20px;
+	font-family: serif;
+
 }
 
 .photo li span {
@@ -87,6 +104,7 @@ main li {
 	color: black;
 	font-size: 30px;
 	font-weight: bold;
+	font-family: serif;
 }
 
 .fixed {
@@ -109,8 +127,7 @@ main li {
 }
 
 .title {
-	margin-top: -50px;
-	margin-bottom: 400px;
+	margin-top: -120px;
 	font-size: 80px;
 	height: 87px;
 	padding-bottom: 10px;
@@ -215,6 +232,7 @@ input[type=submit]:hover {
 	content: "";
 	display: table;
 	clear: both;
+	font-family: serif;
 }
 
 /* vertical line */
@@ -250,8 +268,9 @@ input[type=submit]:hover {
 
 .bottom-container {
 	text-align: center;
-	background-color: #666;
+	background-color: rgb(10, 5, 5);
 	border-radius: 0px 0px 4px 4px;
+	font-family: serif;
 }
 
 .sns-rest {
@@ -266,6 +285,7 @@ input[type=submit]:hover {
 	padding-left: 4px;
 	padding-right: 4px;
 	color: rgb(255, 255, 255);
+	padding-top: 20px;
 }
 
 .facebook {
@@ -311,6 +331,7 @@ input[type=submit]:hover {
 	margin-right: 60px;
 	height: 300px;
 	width: 300px;
+	font-family: serif;
 }
 
 .footer {
@@ -343,6 +364,33 @@ strong {
 	margin-top: -12px;
 }
 
+.map{position: relative;
+	padding-top: 120px;
+	margin-bottom: 200px;
+	width: 100%;
+	height: 500px;
+
+}
+
+.map_text{
+	position: relative;
+	left: 40%;
+	bottom: -10%;
+	font-size: 40px;
+	font-family: serif;
+	background-color: black;
+	color: white;
+	width: 19%;
+	padding-left: 15px;
+}
+
+.place{
+	position: relative;
+	left: 20%;
+	top: 20%;
+	width: 1000px;
+}
+
 @media screen and (max-width: 480px) {
 	.top-space {
 		width: 100%;
@@ -350,6 +398,21 @@ strong {
 		position: fixed;
 		z-index: 10;
 		background-color: rgba(255, 255, 255, 0);
+	}
+
+	.globalMenuSp a{
+		color: white;
+		text-decoration: none;
+		font-family: serif;
+		font-weight: bold;
+		font-size: 12px;
+	}
+
+	ul {
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 	.hamburger {
 		display: block;
@@ -498,7 +561,7 @@ strong {
 		/* margin-bottom: -100px; */
 		font-size: 10px;
 		width: 360px;
-		margin-left: -34px;
+		margin-left: -17px;
 		/* margin-right: 10px; */
 	}
 	.guideline li {
@@ -556,6 +619,7 @@ strong {
 	.input-field1 {
 		width: 294px;
 	}
+
 	.sns-rest {
 		width: 100%;
 		margin-top: 40px;
@@ -575,10 +639,32 @@ strong {
 		display: flex;
 		justify-content: center;
 		text-decoration: none;
+		padding-top: -100px;
 	}
 	.copyright {
 		position: relative;
 		bottom: -5px;
+	}
+	.place {
+		margin-left: 3px;
+		position: relative;
+		left: -0%;
+		top: 20%;
+		width: 360px;
+	}
+	.map{
+		padding-top: 10px;
+	}
+	.map_text {
+		position: relative;
+		left: 4%;
+		bottom: -10%;
+		font-size: 40px;
+		font-family: serif;
+		background-color: black;
+		color: white;
+		width: 90%;
+		padding-left: 15px;
 	}
 	/* ーーーーーーーーーーハンバーガーメニューーーーーーーーーーーーーーーーーーー */
 	/*　ハンバーガーボタン　*/
