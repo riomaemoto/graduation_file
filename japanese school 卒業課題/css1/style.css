@@ -270,10 +270,12 @@ input[type=submit]:hover {
 
 .facebook {
 	background-color: #3B5998;
+	border-radius: 10px;
 }
 
 .instagram {
 	background-color: #833ab4;
+	border-radius: 10px;
 }
 
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
@@ -564,6 +566,12 @@ strong {
 	}
 	.hide-md-lg p {
 		display: none;
+	}
+	.sns-rest a{
+		width: 150px;
+		display: flex;
+		justify-content: center;
+		text-decoration: none;
 	}
 	/* ーーーーーーーーーーハンバーガーメニューーーーーーーーーーーーーーーーーーー */
 	/*　ハンバーガーボタン　*/
