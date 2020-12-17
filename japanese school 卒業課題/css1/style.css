@@ -558,7 +558,7 @@ strong {
 		margin-top: 40px;
 	}
 	.sns-rest li {
-		margin-top: 10px;
+		margin-top: -20px;
 		font-size: 15px;
 		margin-right: 30px;
 		margin-left: 35px;
@@ -572,6 +572,10 @@ strong {
 		display: flex;
 		justify-content: center;
 		text-decoration: none;
+	}
+	.copyright {
+		position: relative;
+		bottom: -5px;
 	}
 	/* ーーーーーーーーーーハンバーガーメニューーーーーーーーーーーーーーーーーーー */
 	/*　ハンバーガーボタン　*/
