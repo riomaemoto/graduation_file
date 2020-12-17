@@ -8,4 +8,9 @@ $(function () {
       $('.globalMenuSp').removeClass('active');
     }
   });
+  $(function () {
+    $('a').on('click', () => {
+        $('.globalMenuSp').fadeOut();
+    });
+});
 });
